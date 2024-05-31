@@ -186,11 +186,11 @@ TextButton1.Name = text.." Button"
 TextButton1.Parent = Tabs
 TextButton1.BackgroundColor3 = Color3.fromRGB(32,32,32)
 TextButton1.BackgroundTransparency = 1.000
-TextButton1.Size = UDim2.new(0, 220, 0, 21)
+TextButton1.Size = UDim2.new(0, 70, 0, 21)
 TextButton1.Font = Enum.Font.SourceSansSemibold
 TextButton1.Text = text
 TextButton1.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton1.TextSize = 8.000
+TextButton1.TextSize = 14.000
 
 Frame.Parent = Items
 Frame.Active = true
@@ -308,7 +308,7 @@ TextButton_2.Font = Enum.Font.SourceSansSemibold
 TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_2.Text = v
 TextButton_2.TextSize = 14.000
-TextButton_2.ZIndex = 4
+TextButton_2.ZIndex = 40
 
 TextButton_2.MouseButton1Click:Connect(function()
     Dropdown.Text = v

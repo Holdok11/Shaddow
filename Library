@@ -308,7 +308,7 @@ TextButton_2.Font = Enum.Font.SourceSansSemibold
 TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_2.Text = v
 TextButton_2.TextSize = 14.000
-TextButton_2.ZIndex = 40
+TextButton_2.ZIndex = 4
 
 TextButton_2.MouseButton1Click:Connect(function()
     Dropdown.Text = v
@@ -642,7 +642,6 @@ function InsideTab:CreateButton(text, callback)
     Button.Text = text
     Button.TextColor3 = Color3.fromRGB(255, 255, 255)
     Button.TextSize = 14.000
-    
     Button_Roundify_3px.Name = "Button_Roundify_3px"
     Button_Roundify_3px.Parent = Button
     Button_Roundify_3px.Active = true
